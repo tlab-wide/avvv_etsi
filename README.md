@@ -9,7 +9,7 @@ Take the steps as they're provided below in all sections:
 Clone this repository:
 
 ```
-git clone git@github.com:hoosh-ir/avvv_etsi.git
+git clone git@github.com:tlab-wide/avvv_etsi.git
 ```
 
 Navigate to the root directory:
