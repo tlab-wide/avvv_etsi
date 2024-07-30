@@ -21,7 +21,7 @@ namespace common
 
 
 /**
- * @brief Prepares the AVNV_cpm package for input and output addresses
+ * @brief Prepares the analyser package for input and output addresses
  * @param input_rosbags
  * @param input_pcaps
  * @param output_folder

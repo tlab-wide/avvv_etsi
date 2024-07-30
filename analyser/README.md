@@ -19,7 +19,7 @@ This output file is received and used by the visualization project
 
 - For a full description of the [cpm protocol](https://www.etsi.org/deliver/etsi_tr/103500_103599/103562/02.01.01_60/tr_103562v020101p.pdf).
 - Submit bug reports and feature suggestions, or track changes in the
-  [issue queue](https://github.com/BarikloAmir/AVNV_cpm/issues).
+  [issue queue](https://github.com/tlab-wide/avvv_etsi/issues).
   
 ## Requirements
 
