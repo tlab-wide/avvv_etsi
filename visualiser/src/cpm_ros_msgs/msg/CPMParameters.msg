@@ -1,0 +1,5 @@
+cpm_ros_msgs/CPMManagementContainer management_container
+cpm_ros_msgs/StationDataContainer station_data_container
+cpm_ros_msgs/StationDataContainer sensor_information_container
+cpm_ros_msgs/PerceivedObjectContainer perceived_object_container
+uint8 number_of_perceived_objects

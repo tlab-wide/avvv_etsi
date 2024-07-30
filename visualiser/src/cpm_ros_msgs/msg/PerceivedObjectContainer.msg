@@ -1,0 +1,1 @@
+cpm_ros_msgs/PerceivedObject[] perceived_objects

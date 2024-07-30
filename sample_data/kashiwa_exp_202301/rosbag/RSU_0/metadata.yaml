@@ -1,0 +1,33 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: {}
+  duration:
+    nanoseconds: 683533133845
+  files:
+  - duration:
+      nanoseconds: 683533133845
+    message_count: 44204
+    path: filtered_bags.db3
+    starting_time:
+      nanoseconds_since_epoch: 1671004103325370762
+  message_count: 44204
+  relative_file_paths:
+  - filtered_bags.db3
+  starting_time:
+    nanoseconds_since_epoch: 1671004103325370762
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 40930
+    topic_metadata:
+      name: /tf
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: tf2_msgs/msg/TFMessage
+  - message_count: 3274
+    topic_metadata:
+      name: /perception/object_recognition/objects
+      offered_qos_profiles: ''
+      serialization_format: cdr
+      type: autoware_auto_perception_msgs/msg/PredictedObjects
+  version: 6

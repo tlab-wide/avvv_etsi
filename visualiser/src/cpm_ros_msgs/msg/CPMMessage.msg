@@ -1,0 +1,3 @@
+builtin_interfaces/Time stamp
+cpm_ros_msgs/ItsPduHeader header
+cpm_ros_msgs/CollectivePerceptionMessage cpm
