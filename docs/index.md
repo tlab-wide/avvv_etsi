@@ -16,7 +16,6 @@ This [Document](https://www.etsi.org/deliver/etsi_tr/103500_103599/103562/02.01.
 - [Tutorials](tutorials) pages explain several tutorials that you should try after installation.
 - [How-to guides](how-to-guides) pages explain advanced topics that you should read after you get used to Autoware.
 - [Design](design) pages explain the design concept of Autoware.
-- [Contributing](contributing) pages explain how to contribute to Autoware.
 - [protocols](protocols) pages explain protocols that used in the AVVV ETSI project
 - [Datasets](datasets) pages contain information about datasets that can be used with Autoware.
 - [Support](support) pages explain several support resources.

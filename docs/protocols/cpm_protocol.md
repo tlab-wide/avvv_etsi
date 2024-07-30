@@ -1,6 +1,6 @@
 # CPM
 
-## what is CPM Protocol
+## What is CPM Protocol
 
 The CPM (Collective Perception Message) protocol is a key component of the Collective Perception Service (CPS) 
 analyzed in ETSI TR 103 562 V2.1.1 (2019-12). The CPS is a service that enables vehicles to share information

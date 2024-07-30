@@ -1,6 +1,6 @@
 # ITS
 
-## what is ITS  Protocol
+## That is ITS  Protocol
 The ITS (Intelligent Transport Systems) protocol is a communication protocol used in 
 transportation systems to enable the exchange of information between vehicles, infrastructure, and other devices. 
 The protocol is designed to improve safety, efficiency, and sustainability in transportation systems.
