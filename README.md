@@ -1,6 +1,6 @@
 # avvv_etsi
 
-Autonomous Vehicle V2X Visualiser ETSI. Refer to the official documents for more information.
+Autonomous Vehicle V2X Visualiser ETSI. Refer to [the official documents](https://tlab-wide.github.io/avvv_etsi/datasets/) for more information.
 
 ## Build
 
