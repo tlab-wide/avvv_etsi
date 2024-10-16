@@ -1,11 +1,22 @@
 # Installation
 
+## Prerequisites
+
+This is a source installation. It requires:
+- OS: [Ubutnu 22.04](https://releases.ubuntu.com/22.04/)
+- ROS: [ROS2 Humble](https://docs.ros.org/en/humble/)
+- [Git](https://git-scm.com/)
+
 ## Build
 
 Take the steps as they're provided below in all sections:
 
-Clone this repository:
+Initially perform an update:
+```
+sudo apt update
+```
 
+Clone this repository:
 ```
 git clone git@github.com:tlab-wide/avvv_etsi.git
 ```
@@ -37,17 +48,18 @@ Configure and build Wireshark:
 cmake -DBUILD_wireshark=OFF ..
 make
 ```
+
 Navigate back to `lib`:
 ```
 cd ../..
 ```
 
-Create Python3 venv:
+Create a Python3 virtual environment:
 ```
 python3 -m venv ./avvv_etsi_venv
 ```
 
-Activate the venv:
+Activate the virtual environment:
 ```
 source avvv_etsi_venv/bin/activate
 ```
