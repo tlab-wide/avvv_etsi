@@ -47,12 +47,12 @@ which IEEE 802.11 specifies to be between 0 and 255.
 RSUs and OBUs broadcast their data based on the ETSI standard in the format of Collective Perception
 Messages (CPMs). Visit the [ETSI official document](https://www.etsi.org/deliver/etsi_tr/103500_103599/103562/02.01.01_60/tr_103562v020101p.pdf) for more information about ETSI and the CPM format.
 
-## Getting started
+## Get started
 
 - [Installation](installation) pages explain the installation steps of AVVV.
 - [Tutorials](tutorials) pages explain several tutorials that you should try after installation.
 - [How-to guides](how-to-guides) pages explain advanced topics that you should read after you get comfortable with AVVV.
 - [Design](design) pages explain the design concept of AVVV.
-- [protocols](protocols) pages explain protocols used.
+- [Protocols](protocols) pages explain protocols used.
 - [Datasets](datasets) pages contain information about datasets that can be used with AVVV.
 - [Support](support) pages explain several support resources.

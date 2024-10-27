@@ -1,0 +1,5 @@
+nav:
+  - index.md
+  - configure-analyser
+  - configure-visualiser
+  - configure-reporter
