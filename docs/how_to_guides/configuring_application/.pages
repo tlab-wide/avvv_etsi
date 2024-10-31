@@ -1,5 +1,5 @@
 nav:
   - index.md
-  - configuring-analyser
-  - configuring-visualiser
-  - configuring-reporter
+  - configuring_analyser
+  - configuring_visualiser
+  - configuring_reporter

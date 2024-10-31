@@ -51,7 +51,7 @@ Messages (CPMs). Visit the [ETSI official document](https://www.etsi.org/deliver
 
 - [Installation](installation) pages explain the installation steps of AVVV.
 - [Tutorials](tutorials) pages explain several tutorials that you should try after installation.
-- [How-to guides](how-to-guides) pages explain advanced topics that you should read after you get comfortable with AVVV.
+- [How-to guides](how_to_guides) pages explain advanced topics that you should read after you get comfortable with AVVV.
 - [Design](design) pages explain the design concept of AVVV.
 - [Protocols](protocols) pages explain protocols used.
 - [Datasets](datasets) pages contain information about datasets that can be used with AVVV.
