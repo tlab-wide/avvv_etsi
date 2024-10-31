@@ -1,17 +1,15 @@
-
-}
 .md-header {
-  background-color: #ADD8E6;
+  background-color: #2980B9;
   color: #343a40;
 }
+
 .md-tabs {
-  background-color: #ADD8E6;
+  background-color: #2980B9;
   color: #343a40;
 }
 
-.md-footer{
-  background-color: #ADD8E6;
-
+.md-footer {
+  background-color: #2980B9;
 }
 
  * Reset some basic elements
@@ -88,14 +86,32 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #91a501;
-  text-decoration: none; }
-  a:hover {
-    color: #647201; }
-  .social-media-list a:hover {
-    text-decoration: none; }
-    .social-media-list a:hover .username {
-      text-decoration: underline; }
+  color: #2980B9;
+  text-decoration: none;
+}
+
+.md-header .md-footer .md-tabs a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.md-header .md-footer .md-tabs a:hover {
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #FFF;
+}
+
+a:hover {
+  color: #3990C9;
+}
+
+.social-media-list a:hover {
+  text-decoration: none;
+}
+
+.social-media-list a:hover .username {
+  text-decoration: underline;
+}
 
 /**
  * Blockquotes
@@ -203,7 +219,7 @@ table {
  * Site header
  */
 .md-header {
-  background-color: #ADD8E6;
+  background-color: #2980B9;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 55.95px;

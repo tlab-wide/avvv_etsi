@@ -3,14 +3,14 @@ site_name: V2X AVVV ETSI Project
 site_url: https://tlab-wide.github.io/AVVV_etsi/
 site_author: Amirhossein Bariklou
 site_description: >-
-  AVVV ETSI V2X project with HooshX company
+  V2X AVVV ETSI - HooshX
 
 # Repository
-repo_name: tlab-wide/avvv_etsi
+repo_name: tlab-wide/avvv_etc
 repo_url: https://github.com/tlab-wide/avvv_etsi
 
 # Copyright
-copyright: Copyright &copy; 2021 - 2024 HooshX Company
+copyright: Copyright &copy; 2021 - 2024 HooshX
 
 # Configuration
 theme:
