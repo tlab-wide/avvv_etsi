@@ -1,15 +1,16 @@
 .md-header {
   background-color: #2980B9;
-  color: #343a40;
+  color: #FFF;
 }
 
 .md-tabs {
   background-color: #2980B9;
-  color: #343a40;
+  color: #FFF;
 }
 
 .md-footer {
   background-color: #2980B9;
+  color: #FFF;
 }
 
  * Reset some basic elements
@@ -90,12 +91,12 @@ a {
   text-decoration: none;
 }
 
-.md-header .md-footer .md-tabs a {
+.md-header a, .md-footer a, .md-tabs a {
   color: #FFF;
   text-decoration: none;
 }
 
-.md-header .md-footer .md-tabs a:hover {
+.md-header a:hover, .md-footer a:hover, .md-tabs a:hover {
   color: #FFF;
   text-decoration: none;
   text-shadow: 2px 2px 4px #FFF;
