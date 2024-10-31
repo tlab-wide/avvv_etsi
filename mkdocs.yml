@@ -57,8 +57,8 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/favicon.png
+  logo: assets/images/tlab.png
   icon:
-    logo: assets/images/tlab.png
     repo: fontawesome/brands/github 
 
 # Plugins
