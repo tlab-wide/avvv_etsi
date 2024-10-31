@@ -58,7 +58,7 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
-    logo: AVVV
+    logo: assets/images/tlab.png
     repo: fontawesome/brands/github 
 
 # Plugins
