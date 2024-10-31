@@ -35,11 +35,13 @@ The `input_files` directory should be divided into 2 subdirectories called `pcap
 The PCAP files must contain data in the ETSI 2019 standard format. Get the standards from [here](https://www.etsi.org/deliver/etsi_tr/103500_103599/103562/02.01.01_60/tr_103562v020101p.pdf)
 
 The input OBU ROSBAGs must contain the three essential topics:
+
 - /tf: Locating the OBU or the RSU over time (tf2_msgs/msg/TFMessage)
 - /perception/object_recognition/objects: The OBU's own predicted objects (autoware_auto_perception_msgs/msg/PredictedObjects)
 - /v2x/cpm/objects: The predicted objects the OBU has received from an RSU (autoware_auto_perception_msgs/msg/PredictedObjects)
 
 Likewise, the input RSU ROSBAGs must contain the following topics:
+
 - /tf: Locating the OBU or the RSU over time (tf2_msgs/msg/TFMessage)
 - /perception/object_recognition/objects: The RSU's own predicted objects (autoware_auto_perception_msgs/msg/PredictedObjects)
 

@@ -1,3 +1,6 @@
 # Protocols
 
-This pages explains about protocols that used in the AVVV ETSI Project 
+Pages in this section explain protocols used in AVVV ETSI.
+
+- [CPM](CPM)
+- [ITS](ITS)
