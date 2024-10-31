@@ -2,5 +2,5 @@
 
 Pages in this section explain protocols used in AVVV ETSI.
 
-- [CPM](CPM)
-- [ITS](ITS)
+- [CPM](cpm_protocol)
+- [ITS](its_protocol)

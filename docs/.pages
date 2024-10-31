@@ -1,10 +1,8 @@
 nav:
   - Introduction: index.md
   - installation
-  - how-to-guides
+  - how_to_guides
   - design
-  - contributing
   - datasets
   - support
-  - about us
   - protocols
