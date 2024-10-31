@@ -8,7 +8,7 @@ The Visualiser's mission is, as the name suggests, to visualise the experiments 
 
 Finally, the Reporter module will display the results of the network analysis either as overall and grid-based heatmaps or detailed and instantaneous graphs.
 
-![AVVV general structure](assets/images/avvv_general_structure.png)
+![AVVV general structure](./../assets/images/avvv_general_structure.png)
 
 Read more about each module:
 
