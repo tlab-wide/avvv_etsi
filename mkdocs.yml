@@ -1,6 +1,6 @@
 # Project information
 site_name: V2X AVVV ETSI Project
-site_url: https://tlab-wide.github.io/AVVV_etsi/
+site_url: https://tlab-wide.github.io/avvv_etsi/
 site_author: Amirhossein Bariklou
 site_description: >-
   V2X AVVV ETSI - HooshX
@@ -58,7 +58,8 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   icon:
-    logo: logo
+    logo: AVVV
+    repo: fontawesome/brands/github 
 
 # Plugins
 plugins:

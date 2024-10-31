@@ -91,19 +91,8 @@ a {
   text-decoration: none;
 }
 
-.md-header a, .md-footer a, .md-tabs a {
-  color: #FFF;
-  text-decoration: none;
-}
-
-.md-header a:hover, .md-footer a:hover, .md-tabs a:hover {
-  color: #FFF;
-  text-decoration: none;
-  text-shadow: 2px 2px 4px #FFF;
-}
-
 a:hover {
-  color: #3990C9;
+  color: #4970A9;
 }
 
 .social-media-list a:hover {
@@ -113,6 +102,17 @@ a:hover {
 .social-media-list a:hover .username {
   text-decoration: underline;
 }
+
+.md-header a, .md-footer a, .md-tabs a {
+  color: #FFF;
+  text-decoration: none;
+}  
+
+.md-header a:hover, .md-footer a:hover, .md-tabs a:hover {
+  color: #FFF;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px 1px #FFF;
+}  
 
 /**
  * Blockquotes
