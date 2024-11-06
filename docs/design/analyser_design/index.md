@@ -4,7 +4,7 @@ This section will explain the design and the concepts of the Analyser module. Th
 
 ## Analyser Input
 
-The Analyser module's input consists of two types of data for each RSU or OBU; a PCAP file having captured the sent or received packets, and a ROS2 bag file including each unit's local messages exchanged between local ROS2 nodes.
+The Analyser module's input consists of two types of data for each RSU or OBU; a PCAP file having captured the sent or received packets, and a ROS2 Bag file including each unit's local messages exchanged between local ROS2 nodes.
 
 ### PCAP Files
 
@@ -12,7 +12,7 @@ PCAP is an API used to capture network data packets. Many other programmes such 
 
 ### ROS2 Bag Files
 
-`ros2 bag` is a command line tool for recording data published on topics in your system. It accumulates the data passed on any number of topics and saves it in a database. You can then replay the data to reproduce the results of your tests and experiments. Recording topics is also a great way to share your work and allow others to recreate it. The output of this command is a bag file. We're going to record our experiments topics and use the recordings in our analysis. For more details see the [prepare-input](../../how_to_guides/preparing_input) page.
+`ros2 bag` is a command line tool for recording data published on topics in your system. It accumulates the data passed on any number of topics and saves it in a database. You can then replay the data to reproduce the results of your tests and experiments. Recording topics is also a great way to share your work and allow others to recreate it. The output of this command is a Bag file. We're going to record our experiments topics and use the recordings in our analysis. For more details see the [prepare-input](../../how_to_guides/preparing_input) page.
 
 ## Analyser Output
 
@@ -20,7 +20,7 @@ The output the analyser produces is a set of various information in form of diff
 
 ### Universal ROS2 Bag File
 
-The main output of the Analyser is a single bag file containing all the predictions, movements and network status for all Units and all RSU-OBU pairs. This file is used later in the Visualiser module to visualise what has happened during the experiment. The bag file will contain the following topics:
+The main output of the Analyser is a single Bag file containing all the predictions, movements and network status for all Units and all RSU-OBU pairs. This file is used later in the Visualiser module to visualise what has happened during the experiment. The Bag file will contain the following topics:
 
 - RSU:
     - `/RSU_#/tf`: RSU location (tf2_msgs/msg/TFMessage)
@@ -42,4 +42,41 @@ The analyser will also provide the results of its computation of delay, jitter, 
 
 ## Architecture and Inner Workings
 
+### Structure
 
+The analyser module is made up the following modules and interfaces:
+
+- A config module
+- A PCAP interface
+- A ROS2 interface
+- Main module
+
+#### Config Module
+
+The config module loads a `config.ini` file and configures the analyser accordingly.
+
+#### PCAP Interface
+
+The PCAP interface mainly works with [Pyshark](https://pypi.org/project/pyshark/) a Python wrapper of [Tshark](https://tshark.dev/). Since, the official Tshark has not updated to the last version of ETSI, we use a modified version of Tshark. The PCAP interface provides ways to read and write PCAP files and their data.
+
+#### ROS2 Interface
+
+The ROS2 interface uses [rosbags](https://pypi.org/project/rosbags/), a Python package that handles ROS2 messages removing the need for the ROS2 stack to be available. This interface provides means to read and write ROS2 messages and Bag files.
+
+#### Main Module
+
+The main module of Analyser consists of algorithms to read both PCAP and Bag files, process them and derive a variety of network characteristics between RSUs and OBUs.
+
+### Inner Workings
+
+The Analyser will read all the input files, process their packets and produce the network analysis for all units and all RSU-OBU pairs.
+
+![Overall Analyser Structure](../../assets/images/overall_analyser_structure.svg)
+
+It will calculate packet loss and delay (jitter and RSSI data are not available yet). For packet loss, each RSU packet is searched among the packets received by OBU, if not present a packet loss value of 1 is assigned. If not lost, the broadcast time by RSU and the receive time by OBU is calculated for delay.
+
+![Packet Loss Calculation](../../assets/images/analyser_jitter_delay.svg)
+
+The following figure displays a flowchart of the Analyser processes.
+
+![Analyser Flowchart](../../assets/images/analyser_flowchart.svg)
