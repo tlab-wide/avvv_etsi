@@ -16,7 +16,9 @@ The AVVV project, standing for Autonomous Vehicle V2X Visualiser, aims to analys
 
 Refer to [the official documents](https://tlab-wide.github.io/avvv_etsi) for more information.
 
-<!-- ## License -->
+## License
+
+Distributed under the Apache 2.0 License. See LICENSE.txt for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
