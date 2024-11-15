@@ -2,3 +2,4 @@ nav:
   - index.md
   - Analyser Design: analyser_design
   - Visualiser Design: visualiser_design
+  - Reporter Design: reporter_design

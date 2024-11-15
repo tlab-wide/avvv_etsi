@@ -14,4 +14,4 @@ Read more about each module:
 
 - [Analyser](analyser_design)
 - [Visualiser](visualiser_design)
-- [Reporter]()
+- [Reporter](reporter_design)
