@@ -13,5 +13,5 @@ Finally, the Reporter module will display the results of the network analysis ei
 Read more about each module:
 
 - [Analyser](analyser_design)
-- [Visualiser]()
+- [Visualiser](visualiser_design)
 - [Reporter]()

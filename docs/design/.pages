@@ -1,3 +1,4 @@
 nav:
   - index.md
   - Analyser Design: analyser_design
+  - Visualiser Design: visualiser_design
