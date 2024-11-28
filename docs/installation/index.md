@@ -34,9 +34,11 @@ Navigate to `lib/wireshark`:
 cd lib/wireshark
 ```
 
-Setup Wireshark build:
+To setup Wireshark build, switch to superuser and execute the debian setup shell script (you might be prompted for password):
 ```
-sudo sh tools/debian-setup.sh
+sudo -s
+. tools/debian-setup.sh --install-deb-deps --install-test-deps
+exit
 ```
 
 Create a new directory named `build` and navigate to it:
@@ -87,6 +89,11 @@ Install the dependencies using pip:
 pip3 install -r requirements.txt
 ```
 
+Finally, deactivate the virtual environment using:
+```
+deactivate
+```
+
 ### Visualiser
 
 Build the geographic library. From the root directory of the repository, navigate to `lib/geographiclib-2.3`:
@@ -111,7 +118,7 @@ sudo make install
 Navigate to the `visualiser` directory:
 
 ```
-cd ../../visualiser
+cd ../../../visualiser
 ```
 
 Resolve ROS2 dependencies using `rosdep`:
