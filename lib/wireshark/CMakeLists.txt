@@ -1930,7 +1930,7 @@ set(INSTALL_FILES
 	dfilters
 	dfilter_macros
 	enterprises.tsv
-	ipmap.html
+	# ipmap.html # Note: We temporarily comment this to fix wireshark build issues. We might need it later. 
 	manuf
 	pdml2html.xsl
 	services

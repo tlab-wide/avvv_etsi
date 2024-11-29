@@ -37,6 +37,9 @@ cd lib/wireshark
 To setup Wireshark build, switch to superuser and execute the debian setup shell script (you might be prompted for password):
 ```
 sudo -s
+```
+
+```
 . tools/debian-setup.sh --install-deb-deps --install-test-deps
 exit
 ```
@@ -89,9 +92,10 @@ Install the dependencies using pip:
 pip3 install -r requirements.txt
 ```
 
-Finally, deactivate the virtual environment using:
+Finally, deactivate the virtual environment and go back to root directory using:
 ```
 deactivate
+cd ..
 ```
 
 ### Visualiser
@@ -135,6 +139,11 @@ Build the whole workspace using `colcon`. While still in the visualiser director
 colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
+Lastly, navigate back to the root directory:
+```
+cd ..
+```
+
 ### Launcher
 
 Install Qt6 libraries and dependencies:
@@ -155,6 +164,12 @@ Build the application:
 cmake -S . -B build
 make -C build -j4
 ```
+
+Lastly, navigate back to the root directory:
+```
+cd ../..
+```
+
 ### Build Troubleshoot
 
 Consult the [troubleshooting page](../support/troubleshooting.md).
